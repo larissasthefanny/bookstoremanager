@@ -1,0 +1,11 @@
+logging:
+  level:
+    br:
+      com:
+        sthefanny: DEBUG
+
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
