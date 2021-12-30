@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-public class Books {
+public class Books extends Auditable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
