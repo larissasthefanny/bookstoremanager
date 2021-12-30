@@ -1,6 +1,6 @@
-package com.sthefanny.bookstoragemanager.repository;
+package com.sthefanny.bookstoragemanager.user.repository;
 
-import com.sthefanny.bookstoragemanager.entities.User;
+import com.sthefanny.bookstoragemanager.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

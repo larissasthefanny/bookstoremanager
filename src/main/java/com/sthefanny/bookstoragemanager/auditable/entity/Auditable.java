@@ -1,4 +1,4 @@
-package com.sthefanny.bookstoragemanager.entities;
+package com.sthefanny.bookstoragemanager.auditable.entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,8 @@
-package com.sthefanny.bookstoragemanager.entities;
+package com.sthefanny.bookstoragemanager.user.entity;
 
-import com.sthefanny.bookstoragemanager.entities.enums.Gender;
+import com.sthefanny.bookstoragemanager.auditable.entity.Auditable;
+import com.sthefanny.bookstoragemanager.books.entity.Books;
+import com.sthefanny.bookstoragemanager.enums.Gender;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -9,7 +11,7 @@ import java.util.List;
 
 @Entity
 @Data
-public class User extends Auditable{
+public class User extends Auditable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

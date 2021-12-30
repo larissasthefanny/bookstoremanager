@@ -1,4 +1,4 @@
-package com.sthefanny.bookstoragemanager.entities.enums;
+package com.sthefanny.bookstoragemanager.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
